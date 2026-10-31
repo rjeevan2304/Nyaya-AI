@@ -1,0 +1,582 @@
+[
+  {
+    "title": "Maneka Gandhi v. Union of India",
+    "citation": "AIR 1978 SC 597",
+    "court": "Supreme Court of India",
+    "year": 1978,
+    "bench": "Justice Y.V. Chandrachud, Justice V.R. Krishna Iyer, Justice P.N. Bhagwati",
+    "holding": "Article 21 of the Constitution protects the right to life and personal liberty not just against arbitrary executive action but also against arbitrary legislative action. The procedure established by law must be fair, just and reasonable. No person can be deprived of his passport without affording him a reasonable opportunity of being heard.",
+    "summary": "Maneka Gandhi's passport was impounded by the Government without giving any reason and without affording her an opportunity of being heard. The Supreme Court held that the right to travel abroad is included within the right to personal liberty under Article 21 and that any law curtailing it must satisfy Articles 14, 19 and 21 simultaneously.",
+    "tags": ["Article 21", "natural justice", "passport", "personal liberty", "audi alteram partem"]
+  },
+  {
+    "title": "A.K. Kraipak v. Union of India",
+    "citation": "AIR 1970 SC 150",
+    "court": "Supreme Court of India",
+    "year": 1970,
+    "bench": "Justice K.S. Hegde, Justice A.N. Grover",
+    "holding": "The rules of natural justice apply to quasi-judicial proceedings and to administrative proceedings that affect the rights of parties. A selection committee member who was himself a candidate had a personal interest in the matter and was therefore disqualified from participating in the selection process on grounds of bias.",
+    "summary": "The case involved the selection of officers for the Indian Forest Service. One of the members of the selection committee was himself a candidate for selection. The Supreme Court held that the rules of natural justice — including the rule against bias (nemo judex in causa sua) — apply to administrative proceedings affecting rights, not just purely judicial proceedings.",
+    "tags": ["natural justice", "bias", "administrative law", "selection committee", "nemo judex"]
+  },
+  {
+    "title": "D.K. Basu v. State of West Bengal",
+    "citation": "AIR 1997 SC 610",
+    "court": "Supreme Court of India",
+    "year": 1997,
+    "bench": "Justice A.S. Anand, Justice Kuldip Singh",
+    "holding": "Custodial torture and death in police lock-up is one of the worst crimes in a civilised society. The court issued detailed guidelines for arrest, detention and interrogation that are binding on all law enforcement agencies across India. These guidelines must be followed as a matter of right under Articles 21 and 22 of the Constitution.",
+    "summary": "D.K. Basu, Executive Chairman of Legal Aid Services of West Bengal, wrote a letter to the Supreme Court drawing attention to reports of police brutality and deaths in custody. The Court treated it as a writ petition and laid down comprehensive mandatory requirements for arrest and detention — including the right to be informed of grounds of arrest, right to legal representation, and production before a magistrate within 24 hours.",
+    "tags": ["custodial death", "police brutality", "arrest guidelines", "Article 21", "Article 22", "fundamental rights"]
+  },
+  {
+    "title": "State of Punjab v. Baldev Singh",
+    "citation": "AIR 1999 SC 2378",
+    "court": "Supreme Court of India",
+    "year": 1999,
+    "bench": "Justice S.P. Bharucha, Justice M. Jagannadha Rao",
+    "holding": "Under the NDPS Act, search and seizure without following mandatory procedure under Sections 42 and 43 vitiates the trial. The accused must be informed of his right to be searched before a Gazetted Officer or Magistrate. Failure to follow this procedure is fatal to the prosecution.",
+    "summary": "The accused was convicted under the NDPS Act based on a search conducted without following mandatory procedural safeguards. The Supreme Court held that procedural requirements under the NDPS Act are not merely directory but mandatory, and non-compliance entitles the accused to acquittal.",
+    "tags": ["NDPS Act", "search and seizure", "drugs", "procedural safeguards", "mandatory compliance"]
+  },
+  {
+    "title": "Arnesh Kumar v. State of Bihar",
+    "citation": "(2014) 8 SCC 273",
+    "court": "Supreme Court of India",
+    "year": 2014,
+    "bench": "Justice Chandramauli Kumar Prasad, Justice Pinaki Chandra Ghose",
+    "holding": "Arrest in cases under Section 498A IPC (matrimonial cruelty) must not be made automatically without application of mind by the police. The police officer must be satisfied that arrest is necessary — not merely that an offence is cognizable. Magistrates must apply their mind before authorising detention. Mechanical arrests are impermissible.",
+    "summary": "The case arose from automatic arrests being made under Section 498A IPC (dowry harassment) without proper investigation. The Supreme Court observed that Section 498A was being grossly misused and issued guidelines to prevent arbitrary arrests. The judgment requires police to record cogent reasons for arrest and magistrates to independently evaluate the need for remand.",
+    "tags": ["Section 498A IPC", "dowry", "arrest", "bail", "matrimonial cruelty", "Cr.P.C Section 41"]
+  },
+  {
+    "title": "Satish Chander Ahuja v. Sneha Ahuja",
+    "citation": "(2021) 1 SCC 414",
+    "court": "Supreme Court of India",
+    "year": 2021,
+    "bench": "Justice Ashok Bhushan, Justice R. Subhash Reddy",
+    "holding": "A daughter-in-law has the right to reside in the shared household under the Protection of Women from Domestic Violence Act 2005, even if the property belongs to the father-in-law. The term 'shared household' under Section 2(s) of the DV Act is not limited to property owned or jointly owned by the husband.",
+    "summary": "The father-in-law sought eviction of his daughter-in-law from the matrimonial home after his son's separation. The Supreme Court interpreted Section 2(s) of the Domestic Violence Act widely to hold that any household where the couple lived together constitutes a 'shared household' regardless of ownership, giving women a statutory right of residence.",
+    "tags": ["Domestic Violence Act", "matrimonial home", "shared household", "residence rights", "women's rights"]
+  },
+  {
+    "title": "Vishaka v. State of Rajasthan",
+    "citation": "AIR 1997 SC 3011",
+    "court": "Supreme Court of India",
+    "year": 1997,
+    "bench": "Justice J.S. Verma, Justice Sujata Manohar, Justice B.N. Kirpal",
+    "holding": "Sexual harassment of women at the workplace violates the fundamental rights under Articles 14, 15, 19(1)(g) and 21 of the Constitution. In the absence of enacted law, the court laid down binding guidelines (Vishaka Guidelines) imposing duties on employers to prevent and redress sexual harassment at the workplace.",
+    "summary": "Following the gang rape of a social worker who was opposing child marriage in Rajasthan, Vishaka filed a PIL seeking directions for protection of women from sexual harassment at the workplace. The Supreme Court filled the legislative vacuum by issuing comprehensive guidelines that had the force of law until the Sexual Harassment of Women at Workplace Act 2013 was enacted.",
+    "tags": ["sexual harassment", "workplace", "PIL", "Vishaka guidelines", "women's rights", "Article 21"]
+  },
+  {
+    "title": "S.R. Bommaid v. Union of India",
+    "citation": "AIR 1994 SC 1918",
+    "court": "Supreme Court of India",
+    "year": 1994,
+    "bench": "Nine-Judge Constitution Bench",
+    "holding": "Floor test is the constitutional method for determining majority support in a State Legislature. The Governor cannot act arbitrarily in recommending President's Rule. Imposition of President's Rule under Article 356 is subject to judicial review and the Court can strike it down if the proclamation is mala fide or based on irrelevant material.",
+    "summary": "Several state governments were dismissed under Article 356. The Constitution Bench laid down detailed guidelines on the proper exercise of the President's power under Article 356, held that it must be used as a last resort, and established that the floor of the legislature — not the Governor's subjective satisfaction — is the proper place to test a government's majority.",
+    "tags": ["Article 356", "President's Rule", "federalism", "floor test", "Governor", "judicial review"]
+  },
+  {
+    "title": "T.M.A. Pai Foundation v. State of Karnataka",
+    "citation": "(2002) 8 SCC 481",
+    "court": "Supreme Court of India",
+    "year": 2002,
+    "bench": "Eleven-Judge Constitution Bench, Chief Justice B.N. Kirpal",
+    "holding": "The right to establish and administer educational institutions is a fundamental right under Article 19(1)(g). Unaided private educational institutions have the right to admit students of their choice and fix their own fee structure, subject to the condition that commercialisation of education is not permitted. The State may regulate but not stifle this right.",
+    "summary": "The case involved a challenge to Karnataka regulations governing admissions and fees in private professional colleges. The eleven-judge bench comprehensively interpreted the rights of minority and non-minority educational institutions under Articles 19, 26, 29 and 30 of the Constitution, drawing a distinction between unaided and aided institutions.",
+    "tags": ["private education", "minority institutions", "Article 30", "Article 19", "fee structure", "admissions"]
+  },
+  {
+    "title": "Indra Sawhney v. Union of India",
+    "citation": "AIR 1993 SC 477",
+    "court": "Supreme Court of India",
+    "year": 1992,
+    "bench": "Nine-Judge Constitution Bench",
+    "holding": "The total reservation for backward classes (including SC/ST) cannot exceed 50% of the total seats/posts. The 'creamy layer' among Other Backward Classes (OBC) must be excluded from reservation benefits. Reservations in promotions for SC/ST employees are not permissible under Article 16(4).",
+    "summary": "The Mandal Commission Report recommending 27% reservation for OBCs in central government services was challenged. The nine-judge bench upheld OBC reservation in principle but imposed a 50% cap on total reservations, introduced the concept of 'creamy layer' exclusion, and ruled that reservations in promotions are impermissible.",
+    "tags": ["reservation", "OBC", "Mandal Commission", "Article 16", "creamy layer", "50% cap", "backward classes"]
+  },
+  {
+    "title": "Kesavananda Bharati v. State of Kerala",
+    "citation": "AIR 1973 SC 1461",
+    "court": "Supreme Court of India",
+    "year": 1973,
+    "bench": "Thirteen-Judge Constitution Bench",
+    "holding": "Parliament has the power to amend any part of the Constitution including fundamental rights, but cannot destroy or abrogate the 'basic structure' or essential features of the Constitution. The basic structure doctrine limits Parliament's amending power under Article 368.",
+    "summary": "The State of Kerala enacted land reform legislation that was challenged on the ground that it violated the right to property. The case raised the fundamental question of whether Parliament's power to amend the Constitution was unlimited. The 13-judge bench propounded the basic structure doctrine, holding that certain features of the Constitution are immune from amendment.",
+    "tags": ["basic structure", "constitutional amendment", "Article 368", "fundamental rights", "land reform", "parliamentary power"]
+  },
+  {
+    "title": "State of Haryana v. Bhajan Lal",
+    "citation": "AIR 1992 SC 604",
+    "court": "Supreme Court of India",
+    "year": 1992,
+    "bench": "Justice L.M. Sharma, Justice S.C. Agrawal",
+    "holding": "The High Court can quash an FIR under Section 482 Cr.P.C. to prevent abuse of the process of the court and to secure the ends of justice. The court laid down seven categories of cases where quashing of an FIR would be justified, including where the allegations do not constitute an offence or where the FIR is manifestly mala fide.",
+    "summary": "The case involved a political vendetta FIR. The Supreme Court laid down comprehensive guidelines — known as the Bhajan Lal guidelines — listing the circumstances in which the High Court can use its inherent power under Section 482 Cr.P.C. to quash criminal proceedings to prevent abuse of process.",
+    "tags": ["Section 482 Cr.P.C.", "quashing of FIR", "inherent power", "mala fide", "abuse of process"]
+  },
+  {
+    "title": "Gian Kaur v. State of Punjab",
+    "citation": "AIR 1996 SC 946",
+    "court": "Supreme Court of India",
+    "year": 1996,
+    "bench": "Five-Judge Constitution Bench",
+    "holding": "Right to die or right to extinction is not included in the right to life under Article 21. The right to life does not include the right to die. Section 309 IPC (attempt to suicide) is constitutionally valid. Euthanasia, whether active or passive, is not permitted except to the extent recognised in the Aruna Shanbaug case.",
+    "summary": "The Constitutional validity of Section 309 IPC (attempt to commit suicide) and Section 306 IPC (abetment of suicide) were challenged. The Constitution Bench reversed the earlier P. Rathinam judgment and held that the right to life under Article 21 does not include the right to die.",
+    "tags": ["Section 309 IPC", "attempt to suicide", "right to life", "Article 21", "euthanasia"]
+  },
+  {
+    "title": "Common Cause v. Union of India",
+    "citation": "(2018) 5 SCC 1",
+    "court": "Supreme Court of India",
+    "year": 2018,
+    "bench": "Justice Dipak Misra, Justice A.K. Sikri, Justice A.M. Khanwilkar, Justice D.Y. Chandrachud, Justice Ashok Bhushan",
+    "holding": "The right to die with dignity is a fundamental right under Article 21. Passive euthanasia is permissible. An advance medical directive (living will) by a terminally ill person is legally valid. The court issued comprehensive guidelines for the implementation of passive euthanasia.",
+    "summary": "The NGO Common Cause filed a PIL seeking recognition of the right to die with dignity and validity of advance directives. The five-judge Constitution Bench held that the right to die with dignity is intrinsic to the right to live with dignity, recognised passive euthanasia, and provided a detailed framework for 'living wills'.",
+    "tags": ["right to die", "euthanasia", "living will", "advance directive", "Article 21", "terminal illness"]
+  },
+  {
+    "title": "Navtej Singh Johar v. Union of India",
+    "citation": "(2018) 10 SCC 1",
+    "court": "Supreme Court of India",
+    "year": 2018,
+    "bench": "Chief Justice Dipak Misra, Justice R.F. Nariman, Justice A.M. Khanwilkar, Justice D.Y. Chandrachud, Justice Indu Malhotra",
+    "holding": "Section 377 IPC, in so far as it criminalises consensual sexual conduct between adults of the same sex, is unconstitutional as it violates Articles 14, 15, 19 and 21 of the Constitution. Sexual orientation is an innate part of self-identity and any form of criminalisation of natural identity is unconstitutional.",
+    "summary": "Several petitions were filed challenging the constitutional validity of Section 377 IPC which criminalised 'carnal intercourse against the order of nature'. The Constitution Bench unanimously struck down the provision to the extent it penalised consensual same-sex relations between adults, overruling the 2013 Suresh Kumar Koushal judgment.",
+    "tags": ["Section 377 IPC", "LGBTQ+", "sexual orientation", "Article 21", "decriminalisation", "privacy"]
+  },
+  {
+    "title": "Justice K.S. Puttaswamy v. Union of India",
+    "citation": "(2017) 10 SCC 1",
+    "court": "Supreme Court of India",
+    "year": 2017,
+    "bench": "Nine-Judge Constitution Bench",
+    "holding": "The right to privacy is a fundamental right protected under Article 21 of the Constitution as an intrinsic part of the right to life and personal liberty. Privacy is the constitutional core of human dignity and includes informational privacy, bodily integrity, and personal autonomy.",
+    "summary": "The nine-judge bench was assembled to decide whether the right to privacy is a fundamental right, arising from Aadhaar-related petitions. The bench unanimously held that privacy is a fundamental right and overruled earlier judgments in M.P. Sharma and Kharak Singh that had held otherwise.",
+    "tags": ["right to privacy", "Article 21", "Aadhaar", "data protection", "fundamental rights", "informational privacy"]
+  },
+  {
+    "title": "Subramanian Swamy v. Union of India",
+    "citation": "(2016) 7 SCC 221",
+    "court": "Supreme Court of India",
+    "year": 2016,
+    "bench": "Justice Dipak Misra, Justice Prafulla C. Pant",
+    "holding": "Criminal defamation under Sections 499 and 500 IPC does not violate the freedom of speech and expression under Article 19(1)(a) of the Constitution. The right to reputation is a fundamental right under Article 21. The State has a legitimate interest in protecting individuals from defamatory attacks.",
+    "summary": "The constitutional validity of criminal defamation provisions in the IPC was challenged on the ground that they unreasonably restrict freedom of speech. The Supreme Court upheld the provisions and held that reputation is protected under Article 21, and reasonable restrictions on speech for protecting reputation are valid under Article 19(2).",
+    "tags": ["defamation", "Section 499 IPC", "freedom of speech", "Article 19", "reputation", "Article 21"]
+  },
+  {
+    "title": "Shreya Singhal v. Union of India",
+    "citation": "(2015) 5 SCC 1",
+    "court": "Supreme Court of India",
+    "year": 2015,
+    "bench": "Justice J. Chelameswar, Justice R.F. Nariman",
+    "holding": "Section 66A of the Information Technology Act, 2000, which punished online speech that was 'grossly offensive' or caused 'annoyance' is unconstitutional as it is vague, overbroad, and violates Article 19(1)(a). The provision is not saved by Article 19(2) as it does not fall within permissible restrictions on free speech.",
+    "summary": "The case challenged Section 66A of the IT Act after several arrests were made for Facebook and Twitter posts criticising politicians. The Supreme Court struck down Section 66A entirely as unconstitutional, finding that its terms were too vague and wide to constitute a reasonable restriction on freedom of speech.",
+    "tags": ["Section 66A IT Act", "online free speech", "Article 19", "internet freedom", "social media", "vagueness doctrine"]
+  },
+  {
+    "title": "Olga Tellis v. Bombay Municipal Corporation",
+    "citation": "AIR 1986 SC 180",
+    "court": "Supreme Court of India",
+    "year": 1985,
+    "bench": "Chief Justice Y.V. Chandrachud, Justice O. Chinnappa Reddy",
+    "holding": "The right to livelihood is part of the right to life under Article 21 of the Constitution. Eviction of pavement dwellers without adequate notice and opportunity of hearing violates their right to livelihood. The State cannot evict them without providing adequate rehabilitation.",
+    "summary": "Pavement and slum dwellers in Bombay challenged their eviction by the Municipal Corporation. The Supreme Court held that the right to life includes the right to livelihood and that the State cannot deprive them of their shelter/livelihood without due process. This case established socio-economic rights as part of Article 21.",
+    "tags": ["right to livelihood", "Article 21", "slum eviction", "pavement dwellers", "due process", "socio-economic rights"]
+  },
+  {
+    "title": "M.C. Mehta v. Union of India (Oleum Gas Leak Case)",
+    "citation": "AIR 1987 SC 965",
+    "court": "Supreme Court of India",
+    "year": 1987,
+    "bench": "Chief Justice P.N. Bhagwati, Justice Ranganath Misra",
+    "holding": "An enterprise engaged in a hazardous or inherently dangerous industry owes an absolute and non-delegable duty to the community to ensure that no harm results. This absolute liability is not subject to exceptions unlike strict liability under Rylands v. Fletcher. The enterprise is liable to pay compensation even if it took all due care.",
+    "summary": "Oleum gas leaked from Shriram Food and Fertilizer Industries in Delhi, causing deaths and injuries. The Supreme Court formulated the 'absolute liability' doctrine — a stricter version of the English 'strict liability' rule — which has no exceptions and applies to enterprises engaged in hazardous activities.",
+    "tags": ["absolute liability", "hazardous industry", "industrial accident", "environment law", "tort law", "Rylands v Fletcher"]
+  },
+  {
+    "title": "State of Maharashtra v. Indian Hotel and Restaurants Association",
+    "citation": "(2013) 8 SCC 519",
+    "court": "Supreme Court of India",
+    "year": 2013,
+    "bench": "Justice A.K. Patnaik, Justice Fakkir Mohamed Kalifulla",
+    "holding": "A bar licence granted under the Bombay Prohibition Act cannot be cancelled in a discriminatory manner by singling out certain licence holders for differential treatment without intelligible differentia. Classification must have a rational nexus to the object of the legislation.",
+    "summary": "The State of Maharashtra introduced a policy that cancelled bar licences of hotels rated below three-stars while allowing three-star and above hotels to retain their licences. The Supreme Court held this arbitrary classification violated Article 14 of the Constitution.",
+    "tags": ["Article 14", "equality", "licence cancellation", "arbitrary classification", "bar licence", "Hotels Act"]
+  },
+  {
+    "title": "Joseph Shine v. Union of India",
+    "citation": "(2018) 2 SCC 189",
+    "court": "Supreme Court of India",
+    "year": 2018,
+    "bench": "Chief Justice Dipak Misra, Justice R.F. Nariman, Justice A.M. Khanwilkar, Justice D.Y. Chandrachud, Justice Indu Malhotra",
+    "holding": "Section 497 IPC (adultery) is unconstitutional as it treats women as property of their husbands, violates Article 14 (equality), Article 15 (non-discrimination on basis of sex), and Article 21 (dignity). Adultery should not be a criminal offence; it may be grounds for divorce but not imprisonment.",
+    "summary": "A Non-Resident Indian challenged the constitutional validity of Section 497 IPC which made adultery a criminal offence punishable only for the man. The five-judge bench unanimously struck it down as archaic, unconstitutional and manifestly arbitrary, holding that a woman's sexual autonomy cannot be controlled by treating her as a chattel.",
+    "tags": ["Section 497 IPC", "adultery", "Article 14", "Article 15", "women's rights", "sexual autonomy", "marriage"]
+  },
+  {
+    "title": "Bandhua Mukti Morcha v. Union of India",
+    "citation": "AIR 1984 SC 802",
+    "court": "Supreme Court of India",
+    "year": 1984,
+    "bench": "Justice P.N. Bhagwati, Justice Ranganath Misra",
+    "holding": "Bonded labour is a violation of Article 21 and Article 23 of the Constitution. The State has an affirmative obligation to identify, release, and rehabilitate bonded labourers. The court can use public interest litigation to enforce fundamental rights of the poor and marginalised who cannot approach the court themselves.",
+    "summary": "An organisation working for the release of bonded labourers wrote a letter to the Supreme Court, which was treated as a writ petition. The Court held that bonded labour violates Articles 21 and 23, directed the government to identify and release bonded labourers across India, and expanded the scope of PIL for socio-economic rights enforcement.",
+    "tags": ["bonded labour", "Article 23", "Article 21", "PIL", "forced labour", "human rights", "rehabilitation"]
+  },
+  {
+    "title": "Sunil Batra v. Delhi Administration",
+    "citation": "AIR 1978 SC 1675",
+    "court": "Supreme Court of India",
+    "year": 1978,
+    "bench": "Justice V.R. Krishna Iyer, Justice P.N. Bhagwati, Justice N.L. Untwalia",
+    "holding": "A convict does not cease to be a human being and retains fundamental rights, subject to the fact of imprisonment and the reasonable requirements of prison administration. Solitary confinement and bar fetters can only be imposed as a last resort and not for extended periods. The right to humane treatment in prison is a fundamental right.",
+    "summary": "A convict wrote a letter to Justice Krishna Iyer describing the torture of a fellow prisoner, which was treated as a writ petition. The Court held that prisoners have fundamental rights, directed an inquiry, and laid down guidelines for humane prison conditions, solitary confinement and use of fetters.",
+    "tags": ["prisoner rights", "Article 21", "solitary confinement", "prison conditions", "bar fetters", "human dignity"]
+  },
+  {
+    "title": "Romesh Thappar v. State of Madras",
+    "citation": "AIR 1950 SC 124",
+    "court": "Supreme Court of India",
+    "year": 1950,
+    "bench": "Justice Patanjali Sastri, Justice Mehr Chand Mahajan",
+    "holding": "Freedom of speech and expression includes the freedom of the press. A law restricting entry of a newspaper or journal into a State for the purpose of preventing it from propagating opinions which might be contrary to the ruling party's views is unconstitutional. Restriction must fall within the specific grounds in Article 19(2).",
+    "summary": "The Madras Government banned the entry and circulation of a journal 'Cross Roads' edited by Romesh Thappar. The Supreme Court struck down the ban, holding that a law restricting circulation of a newspaper must be justified under Article 19(2) and cannot be upheld merely because the publication expressed opposition to government policies.",
+    "tags": ["freedom of press", "Article 19(1)(a)", "newspaper ban", "freedom of speech", "Article 19(2)"]
+  },
+  {
+    "title": "Bachan Singh v. State of Punjab",
+    "citation": "AIR 1980 SC 898",
+    "court": "Supreme Court of India",
+    "year": 1980,
+    "bench": "Five-Judge Constitution Bench",
+    "holding": "The death penalty under Section 302 IPC read with Section 354(3) Cr.P.C. is constitutionally valid. Capital punishment should only be imposed in the 'rarest of rare cases' when alternative option of life imprisonment is unquestionably foreclosed. Courts must consider both aggravating and mitigating circumstances before imposing death sentence.",
+    "summary": "The constitutional validity of the death penalty was challenged. The five-judge bench upheld the constitutional validity of capital punishment and propounded the 'rarest of rare' doctrine, which requires judges to conduct a balance-sheet exercise weighing aggravating and mitigating circumstances before imposing the death penalty.",
+    "tags": ["death penalty", "capital punishment", "rarest of rare", "Section 302 IPC", "Section 354(3) Cr.P.C.", "sentencing"]
+  },
+  {
+    "title": "Pramati Educational and Cultural Trust v. Union of India",
+    "citation": "(2014) 8 SCC 1",
+    "court": "Supreme Court of India",
+    "year": 2014,
+    "bench": "Five-Judge Constitution Bench",
+    "holding": "The Right to Education Act, 2009, does not apply to unaided minority schools protected by Article 30(1) of the Constitution. Mandatory reservation of 25% seats under RTE Act in unaided minority institutions would violate their fundamental right to administer their institutions.",
+    "summary": "A challenge was made to the constitutional validity of the Right to Education Act's requirement that all private unaided schools reserve 25% of seats for children from weaker sections. The Constitution Bench held that while the RTE Act is constitutionally valid for non-minority unaided schools, it cannot be applied to minority institutions under Article 30.",
+    "tags": ["Right to Education Act", "minority institutions", "Article 30", "25% reservation", "private schools", "Article 15(5)"]
+  },
+  {
+    "title": "Sarla Mudgal v. Union of India",
+    "citation": "AIR 1995 SC 1531",
+    "court": "Supreme Court of India",
+    "year": 1995,
+    "bench": "Justice Kuldip Singh, Justice R.M. Sahai",
+    "holding": "A Hindu husband who converts to Islam to contract a second marriage without dissolving the first marriage is guilty of bigamy under Section 494 IPC. Conversion to Islam does not automatically dissolve a Hindu marriage. The second marriage contracted after conversion is void and the husband is liable for bigamy.",
+    "summary": "The case dealt with Hindu men converting to Islam to take a second wife without divorcing the first. The court held that the conversion does not dissolve the Hindu marriage and that such persons commit bigamy under IPC. The court also made a strong plea for a Uniform Civil Code.",
+    "tags": ["bigamy", "Section 494 IPC", "conversion", "Hindu marriage", "Muslim personal law", "Uniform Civil Code"]
+  },
+  {
+    "title": "State of West Bengal v. Anwar Ali Sarkar",
+    "citation": "AIR 1952 SC 75",
+    "court": "Supreme Court of India",
+    "year": 1952,
+    "bench": "Justice Patanjali Sastri, Justice Mehr Chand Mahajan, Justice B.K. Mukherjee",
+    "holding": "An Act providing for special criminal procedure for certain offences on the sole basis of being referred by the State Government violates Article 14. Classification under a statute must be based on an intelligible differentia that has a rational nexus to the objective of the law. Without this, the classification is arbitrary.",
+    "summary": "The West Bengal Special Courts Act allowed the State Government to refer any case to a special court with expedited procedure. The Supreme Court struck it down as violating Article 14, holding there was no intelligible basis for differentiating cases sent to special courts from others, establishing the twin test of classification under Article 14.",
+    "tags": ["Article 14", "special courts", "classification", "intelligible differentia", "rational nexus", "equality"]
+  },
+  {
+    "title": "Nandini Satpathy v. P.L. Dani",
+    "citation": "AIR 1978 SC 1025",
+    "court": "Supreme Court of India",
+    "year": 1978,
+    "bench": "Justice V.R. Krishna Iyer",
+    "holding": "The right against self-incrimination under Article 20(3) applies during police interrogation, not just at the trial stage. An accused person who has been arrested or is reasonably apprehended cannot be compelled to answer questions which may tend to incriminate them, and is entitled to the assistance of a lawyer during interrogation.",
+    "summary": "The former Chief Minister of Orissa was summoned for interrogation in a corruption case and refused to answer certain questions. The Supreme Court held that the constitutional protection against self-incrimination under Article 20(3) is not limited to in-court proceedings but applies from the moment of arrest.",
+    "tags": ["Article 20(3)", "self-incrimination", "right to silence", "interrogation", "lawyer", "Section 161 Cr.P.C."]
+  },
+  {
+    "title": "Hussainara Khatoon v. State of Bihar",
+    "citation": "AIR 1979 SC 1369",
+    "court": "Supreme Court of India",
+    "year": 1979,
+    "bench": "Justice P.N. Bhagwati",
+    "holding": "The right to speedy trial is a fundamental right under Article 21. Under-trial prisoners who have spent more time in jail than the maximum sentence prescribed for the offence must be released immediately. Free legal aid is a constitutional right for those who cannot afford a lawyer.",
+    "summary": "A journalist's article about the plight of under-trial prisoners in Bihar who had spent years in jail without trial was brought to the Court's attention. The Supreme Court held that speedy trial and free legal aid are fundamental rights, and ordered the release of thousands of under-trial prisoners who had exceeded their maximum possible sentence.",
+    "tags": ["speedy trial", "under-trial prisoners", "Article 21", "free legal aid", "bail", "imprisonment"]
+  },
+  {
+    "title": "M.S. Dhoni v. Yerraguntla Shyamsundar",
+    "citation": "(2017) 7 SCC 760",
+    "court": "Supreme Court of India",
+    "year": 2017,
+    "bench": "Justice Dipak Misra, Justice A.M. Khanwilkar",
+    "holding": "When the allegations in the complaint do not prima facie constitute the offence alleged, the High Court should exercise its power under Section 482 Cr.P.C. to quash the proceedings. A complaint which constitutes a 'crusade' against a person based on a loose and casual reading of statements without careful analysis should be quashed.",
+    "summary": "Criminal proceedings were initiated against cricketer M.S. Dhoni for allegedly insulting religious sentiments by appearing on a magazine cover in a pose resembling a religious figure. The Supreme Court upheld the High Court's quashing of the complaint, holding that the bare reading of the article did not constitute any offence.",
+    "tags": ["Section 482 Cr.P.C.", "quashing", "religious sentiments", "Section 295A IPC", "blasphemy", "criminal complaint"]
+  },
+  {
+    "title": "Union of India v. Association for Democratic Reforms",
+    "citation": "(2002) 5 SCC 294",
+    "court": "Supreme Court of India",
+    "year": 2002,
+    "bench": "Justice M.B. Shah, Justice P. Venkatarama Reddi",
+    "holding": "Voters have a fundamental right under Article 19(1)(a) to know about the criminal antecedents, assets and educational qualifications of candidates contesting elections. The Election Commission has the power to call for this information and make it available to voters. Right to information is part of freedom of speech.",
+    "summary": "The court considered whether voters have the right to know relevant information about election candidates. It held that free and fair elections require informed voters, and directed the Election Commission to compel candidates to disclose criminal antecedents, financial assets, and educational background before elections.",
+    "tags": ["right to information", "elections", "criminal antecedents", "candidates disclosure", "Article 19(1)(a)", "election commission"]
+  },
+  {
+    "title": "P.A. Inamdar v. State of Maharashtra",
+    "citation": "(2005) 6 SCC 537",
+    "court": "Supreme Court of India",
+    "year": 2005,
+    "bench": "Seven-Judge Constitution Bench",
+    "holding": "The State cannot compel unaided private professional institutions (minority or non-minority) to implement its admission procedure including reservation policy. Such institutions have the right to devise their own transparent admission process. Reservation in unaided private institutions is impermissible.",
+    "summary": "Following the T.M.A. Pai Foundation judgment, the court resolved outstanding issues about admissions in private unaided professional colleges. It held that the State has no right to impose reservation policy on unaided private institutions and that such institutions can admit students through their own merit-based transparent process.",
+    "tags": ["private colleges", "admissions", "reservation policy", "unaided institutions", "professional education", "Article 19(1)(g)"]
+  },
+  {
+    "title": "Aruna Ramchandra Shanbaug v. Union of India",
+    "citation": "(2011) 4 SCC 454",
+    "court": "Supreme Court of India",
+    "year": 2011,
+    "bench": "Justice Markandey Katju, Justice Gyan Sudha Misra",
+    "holding": "Passive euthanasia — withdrawing life support from a person in a permanent vegetative state — is permissible under strict court supervision. Active euthanasia remains prohibited. The decision to withdraw life support must be approved by a High Court bench after obtaining medical opinion.",
+    "summary": "A petition was filed on behalf of a nurse who had been in a persistent vegetative state for over 36 years following a sexual assault. The Supreme Court laid down guidelines for passive euthanasia in India, drawing a distinction from active euthanasia, and ruled that passive euthanasia can be allowed with High Court approval.",
+    "tags": ["euthanasia", "persistent vegetative state", "passive euthanasia", "right to die", "Article 21", "medical ethics"]
+  },
+  {
+    "title": "Environment & Consumer Protection Foundation v. Delhi Administration",
+    "citation": "(2012) 6 SCC 689",
+    "court": "Supreme Court of India",
+    "year": 2012,
+    "bench": "Justice D.K. Jain, Justice Madan B. Lokur",
+    "holding": "Road accident victims have a right to emergency medical treatment regardless of their ability to pay or complete legal formalities. Hospitals — whether government or private — cannot refuse treatment to accident victims citing non-payment or police formalities. Good Samaritans who bring accident victims to hospitals cannot be harassed by police.",
+    "summary": "The court dealt with the problem of hospitals refusing treatment to road accident victims and bystanders being harassed by police when they brought accident victims to hospitals. The court issued comprehensive guidelines directing that treatment must be provided immediately and that good Samaritans must be protected from harassment.",
+    "tags": ["road accident", "emergency medical treatment", "good samaritan", "hospital", "right to life", "Article 21"]
+  },
+  {
+    "title": "State of UP v. Ram Sagar Yadav",
+    "citation": "AIR 1985 SC 416",
+    "court": "Supreme Court of India",
+    "year": 1985,
+    "bench": "Chief Justice Y.V. Chandrachud, Justice O. Chinnappa Reddy, Justice A.P. Sen",
+    "holding": "When a prisoner dies in police custody, the burden shifts on the State to explain the circumstances of death and to prove that the death was not caused by police torture. Police officers who cause custodial deaths are guilty of a gross abuse of their power and must be punished. The State is also vicariously liable.",
+    "summary": "A prisoner died in police custody with injuries on his body. The Supreme Court addressed the serious problem of custodial deaths, reversed the conviction of the accused, and laid down principles regarding burden of proof in custodial death cases — establishing that the State must explain injuries found on a prisoner.",
+    "tags": ["custodial death", "police torture", "burden of proof", "vicarious liability", "Article 21", "Section 302 IPC"]
+  },
+  {
+    "title": "Subash Kumar v. State of Bihar",
+    "citation": "AIR 1991 SC 420",
+    "court": "Supreme Court of India",
+    "year": 1991,
+    "bench": "Justice K.N. Singh, Justice N.D. Ojha",
+    "holding": "The right to life under Article 21 includes the right to live with human dignity and all that goes along with it, including the right to a wholesome environment. Pollution of rivers like the Bokaro river by effluents from a colliery violates the right to life of residents who depend on it.",
+    "summary": "A PIL was filed about discharge of slurry and effluents from Tata Iron and Steel Company's colliery into the Bokaro river, polluting the drinking water source for villagers. The court recognised the right to a clean environment as part of the right to life under Article 21.",
+    "tags": ["environmental law", "right to clean environment", "Article 21", "river pollution", "PIL", "industrial effluents"]
+  },
+  {
+    "title": "CESC Ltd. v. Subhash Chandra Bose",
+    "citation": "AIR 1992 SC 573",
+    "court": "Supreme Court of India",
+    "year": 1991,
+    "bench": "Justice K. Ramaswamy",
+    "holding": "Right to health and medical assistance is a fundamental right guaranteed under Article 21. Denial of medical benefits to workmen in violation of the Employees' State Insurance Act is unconstitutional. Social security and health care are part of the right to life.",
+    "summary": "The case dealt with the right of workers to receive proper medical benefits under the ESI Act. The Supreme Court held that health is a fundamental right and that employers and the State have a duty to ensure adequate medical facilities for workers, making social security laws part of the constitutional framework.",
+    "tags": ["right to health", "Article 21", "ESI Act", "workers rights", "social security", "medical benefits"]
+  },
+  {
+    "title": "Chameli Singh v. State of UP",
+    "citation": "AIR 1996 SC 1051",
+    "court": "Supreme Court of India",
+    "year": 1996,
+    "bench": "Justice K. Ramaswamy, Justice B.L. Hansaria",
+    "holding": "Right to shelter is a fundamental right under Article 21 — it does not merely mean a roof over the head but a right to all infrastructure necessary to enable a person to live and develop as a human being. Shelter includes adequate living space, safe and decent structure, clean and decent surroundings, and basic amenities.",
+    "summary": "The case dealt with the eviction of SC/ST community members from government land in UP. The Supreme Court expanded the right to life under Article 21 to include the right to shelter, and held that homelessness violates fundamental rights.",
+    "tags": ["right to shelter", "Article 21", "housing", "SC/ST", "eviction", "socio-economic rights"]
+  },
+  {
+    "title": "P. Rathinam v. Union of India",
+    "citation": "AIR 1994 SC 1844",
+    "court": "Supreme Court of India",
+    "year": 1994,
+    "bench": "Justice R.M. Sahai, Justice B.L. Hansaria",
+    "holding": "(Note: This was later overruled by Gian Kaur) Section 309 IPC (attempt to commit suicide) is unconstitutional as it violates Article 21. A person has a right to die and cannot be punished for attempting suicide. The right to live includes the right to die.",
+    "summary": "The constitutional validity of Section 309 IPC was challenged on the ground that it violates Article 21. The two-judge bench held that the right to life includes the right to die and struck down Section 309 IPC. This decision was later overruled by the five-judge bench in Gian Kaur v. State of Punjab.",
+    "tags": ["Section 309 IPC", "attempt to suicide", "right to die", "Article 21", "overruled judgment"]
+  },
+  {
+    "title": "Mohd. Ahmed Khan v. Shah Bano Begum",
+    "citation": "AIR 1985 SC 945",
+    "court": "Supreme Court of India",
+    "year": 1985,
+    "bench": "Chief Justice Y.V. Chandrachud",
+    "holding": "A Muslim woman divorced by her husband is entitled to maintenance beyond the iddat period under Section 125 Cr.P.C., which is a secular law applicable to all. Section 125 overrides personal law. A Muslim husband's liability to maintain his divorced wife extends beyond the period of iddat if she is unable to maintain herself.",
+    "summary": "Shah Bano, a Muslim woman divorced after 43 years of marriage, sought maintenance from her husband. The Supreme Court held that Section 125 Cr.P.C. applies to all citizens irrespective of religion, and that a Muslim husband must provide maintenance to his divorced wife if she is unable to maintain herself. The judgment led to significant political controversy and the enactment of the Muslim Women's Act 1986.",
+    "tags": ["Muslim personal law", "maintenance", "Section 125 Cr.P.C.", "divorce", "Shah Bano", "gender equality", "personal law vs secular law"]
+  },
+  {
+    "title": "In Re: Destruction of Public and Private Properties v. State of A.P.",
+    "citation": "(2009) 5 SCC 212",
+    "court": "Supreme Court of India",
+    "year": 2009,
+    "bench": "Chief Justice K.G. Balakrishnan, Justice R.V. Raveendran, Justice J.M. Panchal",
+    "holding": "Wanton destruction of public and private property during protests is illegal and protesters who engage in such destruction are liable to pay compensation. High Courts can draw a presumption of liability against organisers of demonstrations that turn violent. Courts can award compensation on the basis of the precautionary principle.",
+    "summary": "Following widespread destruction of property during agitations and hartals, the Supreme Court laid down guidelines for prevention of destruction of property during protests. It held that organisers of protests are liable for destruction caused by the mob and outlined a procedure for recovery of compensation from those responsible.",
+    "tags": ["destruction of property", "protests", "compensation", "liability", "mob violence", "hartal", "public property"]
+  },
+  {
+    "title": "Parmanand Katara v. Union of India",
+    "citation": "AIR 1989 SC 2039",
+    "court": "Supreme Court of India",
+    "year": 1989,
+    "bench": "Chief Justice R.S. Pathak, Justice E.S. Venkataramiah",
+    "holding": "It is the obligation of every doctor, whether in government or private service, to provide urgent medical aid to every injured person who requires it, irrespective of medico-legal formalities. Doctors cannot refuse emergency treatment citing police paperwork. The right to receive treatment in an emergency is absolute.",
+    "summary": "A human rights activist filed a writ petition about hospitals refusing to treat accident victims due to medico-legal formalities. The Supreme Court held that preservation of human life is paramount and directed all doctors and hospitals to provide immediate treatment to any person in need of emergency care without waiting for police formalities.",
+    "tags": ["emergency medical care", "Article 21", "right to life", "doctors duty", "hospital", "medico-legal cases"]
+  },
+  {
+    "title": "M.C. Mehta v. Union of India (Taj Trapezium Case)",
+    "citation": "(1997) 2 SCC 353",
+    "court": "Supreme Court of India",
+    "year": 1996,
+    "bench": "Justice Kuldeep Singh, Justice S. Sagir Ahmad",
+    "holding": "Industries causing air pollution in the Taj Trapezium Zone must shift to cleaner fuels or relocate outside the zone. The Precautionary Principle and the Polluter Pays Principle are part of Indian environmental law. The right to a clean environment is a fundamental right under Article 21 and industries must not jeopardise it.",
+    "summary": "M.C. Mehta filed a PIL regarding the damage being caused to the Taj Mahal in Agra due to air pollution from nearby industries. The Supreme Court applied the precautionary principle and directed industries in the Taj Trapezium Zone to switch to CNG or relocate, establishing the polluter pays principle as part of Indian law.",
+    "tags": ["Taj Mahal", "air pollution", "precautionary principle", "polluter pays", "PIL", "environmental law", "relocation"]
+  },
+  {
+    "title": "Apparel Export Promotion Council v. A.K. Chopra",
+    "citation": "AIR 1999 SC 625",
+    "court": "Supreme Court of India",
+    "year": 1999,
+    "bench": "Justice S.P. Bharucha, Justice M. Jagannadha Rao",
+    "holding": "Sexual harassment at the workplace includes any unwelcome sexually determined behaviour — verbal, non-verbal or physical. Even an attempt to sexually harass a female employee constitutes sexual harassment and is sufficient for disciplinary action. The employer has a duty to provide a safe working environment for all employees.",
+    "summary": "A senior officer of the Apparel Export Promotion Council attempted to sexually assault a subordinate female employee. The Supreme Court upheld the dismissal order, interpreted the Vishaka guidelines broadly, and held that any attempt at sexual harassment is sufficient misconduct warranting dismissal.",
+    "tags": ["sexual harassment", "workplace", "Vishaka guidelines", "dismissal", "misconduct", "women employees"]
+  },
+  {
+    "title": "Zahira Habibullah Sheikh v. State of Gujarat",
+    "citation": "(2004) 4 SCC 158",
+    "court": "Supreme Court of India",
+    "year": 2004,
+    "bench": "Chief Justice V.N. Khare, Justice S.B. Sinha, Justice A.R. Lakshmanan",
+    "holding": "The right to a fair trial is a fundamental right under Article 21. Witnesses who are intimidated or bribed into giving false testimony deny this right to victims. The court has the power to direct retrial when the original trial was vitiated by witness tampering, and can transfer cases to different courts for fair trial.",
+    "summary": "The case arose from the Best Bakery case in the Gujarat riots. Key witnesses, including Zahira herself, turned hostile, claiming they were threatened. The Supreme Court held that witness protection is crucial for a fair trial, directed retrial, and transferred the case outside Gujarat.",
+    "tags": ["fair trial", "Article 21", "witness protection", "retrial", "communal riots", "Gujarat", "transfer of case"]
+  },
+  {
+    "title": "Lily Thomas v. Union of India",
+    "citation": "(2013) 7 SCC 653",
+    "court": "Supreme Court of India",
+    "year": 2013,
+    "bench": "Justice A.K. Patnaik, Justice S.J. Mukhopadhaya",
+    "holding": "Section 8(4) of the Representation of the People Act 1951, which allowed convicted MPs and MLAs to continue in office during pendency of their appeal, is unconstitutional and struck down. A legislator convicted of a crime carrying imprisonment of two or more years shall be disqualified immediately upon conviction.",
+    "summary": "The constitutional validity of Section 8(4) of the RP Act 1951 was challenged. The provision allowed convicted legislators to continue in office if they filed an appeal within 3 months. The court struck it down as violating Articles 102(1)(e) and 191(1)(e) read with the Constitution, requiring immediate disqualification on conviction.",
+    "tags": ["electoral disqualification", "convicted legislators", "Section 8 RP Act", "MPs", "MLAs", "Article 102", "Article 191"]
+  },
+  {
+    "title": "State of Maharashtra v. Madhukar Narayan Mardikar",
+    "citation": "AIR 1991 SC 207",
+    "court": "Supreme Court of India",
+    "year": 1990,
+    "bench": "Justice K.N. Singh, Justice N.D. Ojha",
+    "holding": "Even a woman of easy virtue is entitled to the protection of law and cannot be raped or sexually assaulted with impunity. The moral character of the victim is absolutely irrelevant to the charge of rape. Her statement cannot be discredited merely because of her past sexual history.",
+    "summary": "A police officer was acquitted of rape after the High Court discredited the victim's testimony based on her alleged immoral character. The Supreme Court reversed the acquittal, holding that a woman's sexual history is irrelevant to rape charges and that every woman deserves the protection of the law.",
+    "tags": ["rape", "victim character", "two-finger test", "Section 376 IPC", "women's rights", "sexual assault"]
+  },
+  {
+    "title": "Rustom Cavasjee Cooper v. Union of India (Bank Nationalisation Case)",
+    "citation": "AIR 1970 SC 564",
+    "court": "Supreme Court of India",
+    "year": 1970,
+    "bench": "Chief Justice M. Hidayatullah, Justice J.C. Shah",
+    "holding": "Bank nationalisation laws that do not provide adequate compensation for the compulsory acquisition of privately owned property violate Article 31 (right to property). The test of 'adequate compensation' requires that the amount be a just equivalent of the property acquired, not merely illusory.",
+    "summary": "The nationalisation of 14 major private banks by the Indian Government was challenged. The Supreme Court struck down the Banking Companies (Acquisition and Transfer of Undertakings) Ordinance on the ground that the compensation provided was illusory and not adequate. This case led to a major political controversy and subsequent constitutional amendments.",
+    "tags": ["bank nationalisation", "right to property", "Article 31", "compensation", "compulsory acquisition", "fundamental rights"]
+  },
+  {
+    "title": "Tukaram v. State of Maharashtra (Mathura Rape Case)",
+    "citation": "AIR 1979 SC 185",
+    "court": "Supreme Court of India",
+    "year": 1979,
+    "bench": "Justice Jaswant Singh, Justice Kailasam, Justice Koshal",
+    "holding": "(Controversial judgment that led to rape law reform) The court held that absence of injury marks on a rape victim indicates consent. The victim — a 16-year-old tribal girl allegedly raped in a police station — was held to have consented because she was 'habituated to sex'. The judgment was widely criticised and led to the Criminal Law Amendment Act 1983.",
+    "summary": "Mathura, a 16-year-old tribal girl, was allegedly raped by policemen in a police station. The Supreme Court controversially acquitted the accused, reasoning that her failure to raise an alarm and absence of injuries showed consent. This judgment sparked outrage and led to nationwide protests, ultimately resulting in significant amendments to rape laws in India.",
+    "tags": ["rape law reform", "Section 376 IPC", "consent", "police rape", "Criminal Law Amendment 1983", "historic judgment"]
+  },
+  {
+    "title": "Hardeep Singh v. State of Punjab",
+    "citation": "(2014) 3 SCC 92",
+    "court": "Supreme Court of India",
+    "year": 2014,
+    "bench": "Five-Judge Constitution Bench",
+    "holding": "The inherent power under Section 482 Cr.P.C. to quash criminal proceedings survives even after charge framing. The court can exercise this power at any stage if it finds that continuance of proceedings would amount to abuse of process. The test is whether the uncontroverted allegations make out a prima facie case.",
+    "summary": "The five-judge bench addressed the vexed question of the scope of inherent power under Section 482 Cr.P.C. to quash criminal proceedings post charge-framing. The bench held that the power subsists at all stages and is not lost upon framing of charges, though the court must be circumspect in its exercise after charges are framed.",
+    "tags": ["Section 482 Cr.P.C.", "quashing", "charge framing", "inherent power", "criminal procedure", "abuse of process"]
+  },
+  {
+    "title": "Nilabati Behera v. State of Orissa",
+    "citation": "AIR 1993 SC 1960",
+    "court": "Supreme Court of India",
+    "year": 1993,
+    "bench": "Justice L.M. Sharma, Justice A.M. Ahmadi, Justice J.S. Verma",
+    "holding": "When custodial death occurs due to the action of State functionaries, the State is liable to pay compensation to the next of kin under constitutional law (Articles 21 and 32). This is a public law remedy separate from private law remedies. The State cannot plead sovereign immunity to avoid compensation for custodial deaths.",
+    "summary": "A youth died in police custody in Orissa and his mother filed a writ petition. The Supreme Court awarded compensation and held that a public law remedy in the nature of compensation is available for violation of fundamental rights by State functionaries. The court rejected the defence of sovereign immunity for constitutional torts.",
+    "tags": ["custodial death", "compensation", "Article 21", "constitutional tort", "sovereign immunity", "public law remedy"]
+  },
+  {
+    "title": "Satpal v. State of Haryana",
+    "citation": "(2000) 5 SCC 170",
+    "court": "Supreme Court of India",
+    "year": 2000,
+    "bench": "Justice M.B. Shah, Justice D.P. Mohapatra",
+    "holding": "Mercy petitions under Article 72/161 must be decided expeditiously and in accordance with the principles of natural justice. Prolonged delay in deciding a mercy petition can itself be a ground for commutation of the death sentence to life imprisonment. The Governor or President cannot sit on a mercy petition indefinitely.",
+    "summary": "A death row convict whose mercy petition had been pending for over a decade challenged the inordinate delay. The Supreme Court held that unexplained and inordinate delay in disposal of mercy petitions can constitute a ground for commuting the death sentence, as prolonged anxiety and anguish of waiting is itself a form of torture.",
+    "tags": ["mercy petition", "death sentence commutation", "Article 72", "Article 161", "delay", "capital punishment", "Article 21"]
+  },
+  {
+    "title": "People's Union for Civil Liberties v. Union of India (Right to Food Case)",
+    "citation": "(2001) 7 SCC 759",
+    "court": "Supreme Court of India",
+    "year": 2001,
+    "bench": "Justice Ruma Pal, Justice Brijesh Kumar",
+    "holding": "The right to food is a component of the right to life under Article 21. Starvation deaths cannot be permitted when the country has excess foodgrain stocks. The State has a positive obligation to ensure that food reaches those who are starving, and must operationalise food security schemes effectively.",
+    "summary": "PUCL filed a PIL drawing attention to starvation deaths in Rajasthan while foodgrains were rotting in government godowns. The Supreme Court treated the case as an ongoing matter, issued interim orders directing various food security schemes to be implemented, and held that the right to food is a fundamental right under Article 21.",
+    "tags": ["right to food", "Article 21", "starvation", "food security", "PDS", "socio-economic rights", "PIL"]
+  },
+  {
+    "title": "Gaurav Kumar Bansal v. Union of India",
+    "citation": "(2023) 11 SCC 1",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "bench": "Justice B.R. Gavai, Justice Aravind Kumar",
+    "holding": "Judicial review of the Bar Council's regulatory powers over legal education and the legal profession is permissible. The Bar Council of India's Inspection Committee norms must be transparent and fair. Law schools that comply with regulations cannot be denied recognition arbitrarily.",
+    "summary": "A challenge was made to the Bar Council of India's inspection regime for law schools. The Supreme Court held that the Bar Council must exercise its regulatory power transparently and its inspection decisions are subject to judicial review.",
+    "tags": ["legal education", "Bar Council of India", "law school recognition", "regulatory power", "judicial review"]
+  },
+  {
+    "title": "Shayara Bano v. Union of India (Triple Talaq Case)",
+    "citation": "(2017) 9 SCC 1",
+    "court": "Supreme Court of India",
+    "year": 2017,
+    "bench": "Chief Justice J.S. Khehar, Justice Kurian Joseph, Justice R.F. Nariman, Justice U.U. Lalit, Justice Abdul Nazeer",
+    "holding": "Talaq-e-biddat (instant triple talaq) is manifestly arbitrary under Article 14 and violates Articles 14, 15 and 21 of the Constitution. The practice of pronouncing triple talaq in one sitting to instantly dissolve a Muslim marriage is unconstitutional. By a 3:2 majority, triple talaq was struck down.",
+    "summary": "Shayara Bano challenged the validity of her divorce by triple talaq, which gave husbands the power to instantly dissolve a marriage. The five-judge bench by 3:2 majority held the practice unconstitutional. It subsequently led to the Muslim Women (Protection of Rights on Marriage) Act 2019 criminalising triple talaq.",
+    "tags": ["triple talaq", "Muslim personal law", "Article 14", "gender equality", "Muslim marriage", "talaq-e-biddat", "Article 21"]
+  },
+  {
+    "title": "State (NCT of Delhi) v. Union of India",
+    "citation": "(2018) 8 SCC 501",
+    "court": "Supreme Court of India",
+    "year": 2018,
+    "bench": "Chief Justice Dipak Misra, Justice A.K. Sikri, Justice A.M. Khanwilkar, Justice D.Y. Chandrachud, Justice Ashok Bhushan",
+    "holding": "Delhi is a Union Territory with a legislature. The Lieutenant Governor is bound by the aid and advice of the Council of Ministers of Delhi on all matters except land, police and public order. The LG cannot act as an obstructionist and must work in harmony with the elected government of Delhi.",
+    "summary": "The Delhi Government challenged the Lieutenant Governor's power to override decisions of the elected Council of Ministers. The five-judge bench held that LG is bound by the aid and advice of Delhi's Cabinet on all subjects within Delhi's legislative competence, restricting LG's independent authority to land, police and public order.",
+    "tags": ["Delhi government", "Lieutenant Governor", "federalism", "Council of Ministers", "Article 239AA", "aid and advice"]
+  }
+]

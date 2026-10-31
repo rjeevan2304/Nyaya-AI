@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nyaya.ai — Free Indian Legal Research</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0d1b2a; --navy2:#1a2d42; --navy3:#243d56;
+  --gold:#c9993a; --gold-light:#e8b84b;
+  --cream:#f5f0e8; --cream2:#ede7d8;
+  --text:#0d1b2a; --muted:#5a6a7a;
+  --border:#d4c9b0; --white:#ffffff;
+}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--text);min-height:100vh}
+
+/* ── HEADER ── */
+.header{background:var(--navy);padding:14px 28px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--gold);position:sticky;top:0;z-index:100}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo-icon{width:38px;height:38px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-weight:700;font-size:17px;color:var(--navy);flex-shrink:0}
+.logo-name{font-family:'Playfair Display',serif;font-weight:600;font-size:20px;color:#fff}
+.logo-sub{font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:2px;text-transform:uppercase;display:block;margin-top:-2px}
+.header-pills{display:flex;gap:6px}
+.hpill{font-size:11px;padding:4px 10px;border-radius:20px;letter-spacing:0.5px}
+.hpill.free{background:rgba(201,153,58,0.2);color:var(--gold-light);border:1px solid rgba(201,153,58,0.3)}
+.hpill.cases{background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.12)}
+
+/* ── HERO ── */
+.hero{background:var(--navy);padding:52px 28px 60px;text-align:center;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(to bottom,transparent,var(--cream));pointer-events:none}
+.hero-eyebrow{display:inline-block;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,153,58,0.3);padding:5px 14px;border-radius:20px;margin-bottom:20px}
+.hero h1{font-family:'Playfair Display',serif;font-size:42px;font-weight:700;color:#fff;line-height:1.15;margin-bottom:14px}
+.hero h1 em{color:var(--gold);font-style:normal}
+.hero-sub{font-size:16px;color:rgba(255,255,255,0.5);max-width:520px;margin:0 auto 36px;line-height:1.7}
+
+/* ── SEARCH BOX ── */
+.search-wrap{max-width:740px;margin:0 auto;position:relative;z-index:2}
+.search-card{background:var(--white);border-radius:16px;padding:24px;border:2px solid var(--gold);box-shadow:0 12px 48px rgba(0,0,0,0.28)}
+.search-label{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:8px;display:block;font-weight:500}
+.search-card textarea{width:100%;border:1.5px solid var(--border);border-radius:10px;padding:14px 16px;font-family:'DM Sans',sans-serif;font-size:14px;line-height:1.65;resize:vertical;min-height:110px;color:var(--text);background:#fafaf8;outline:none;transition:border 0.2s,background 0.2s}
+.search-card textarea:focus{border-color:var(--gold);background:#fff}
+.search-card textarea::placeholder{color:#aaa}
+.filter-row{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap;align-items:center}
+.filter-select{flex:1;min-width:150px;padding:10px 12px;border:1.5px solid var(--border);border-radius:8px;font-family:'DM Sans',sans-serif;font-size:13px;color:var(--text);background:#fff;outline:none;cursor:pointer;transition:border 0.2s}
+.filter-select:focus{border-color:var(--gold)}
+.search-btn{background:var(--navy);color:#fff;border:none;border-radius:8px;padding:10px 28px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;cursor:pointer;transition:background 0.2s;white-space:nowrap;display:flex;align-items:center;gap:8px;letter-spacing:0.3px}
+.search-btn:hover:not(:disabled){background:var(--navy3)}
+.search-btn:disabled{opacity:0.45;cursor:not-allowed}
+.search-hint{font-size:12px;color:rgba(255,255,255,0.3);margin-top:10px;text-align:center}
+
+/* ── TRUST BAR ── */
+.trust-bar{background:var(--cream2);border-bottom:1px solid var(--border);display:grid;grid-template-columns:repeat(4,1fr)}
+.tb-item{padding:16px 12px;text-align:center;border-right:1px solid var(--border)}
+.tb-item:last-child{border-right:none}
+.tb-val{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--navy)}
+.tb-lbl{font-size:11px;color:var(--muted);margin-top:2px;letter-spacing:0.3px}
+
+/* ── RESULTS AREA ── */
+.results-wrap{max-width:860px;margin:0 auto;padding:36px 24px 60px}
+
+/* EMPTY STATE */
+.empty-state{text-align:center;padding:56px 20px 40px}
+.empty-scale{font-size:52px;margin-bottom:20px;opacity:0.35}
+.empty-title{font-family:'Playfair Display',serif;font-size:22px;color:var(--text);margin-bottom:10px}
+.empty-desc{font-size:14px;color:var(--muted);line-height:1.7;max-width:480px;margin:0 auto 28px}
+.examples-label{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:500}
+.example-pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.epill{background:#fff;border:1px solid var(--border);border-radius:20px;padding:7px 16px;font-size:13px;color:var(--text);cursor:pointer;transition:border-color 0.2s,background 0.2s;font-family:'DM Sans',sans-serif}
+.epill:hover{border-color:var(--gold);background:var(--cream)}
+
+/* LOADING STATE */
+.loading-state{text-align:center;padding:64px 20px}
+.spinner{width:40px;height:40px;border:3px solid var(--cream2);border-top:3px solid var(--gold);border-radius:50%;animation:spin 0.75s linear infinite;margin:0 auto 20px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading-msg{font-size:15px;color:var(--text);font-family:'Playfair Display',serif;margin-bottom:8px}
+.loading-steps-list{margin-top:16px}
+.lstep{font-size:13px;color:var(--muted);margin:5px 0;opacity:0;animation:fadeUp 0.4s forwards}
+.lstep.visible{opacity:1}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* RESULTS HEADER */
+.results-header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:8px;border-bottom:1px solid var(--border);padding-bottom:14px}
+.results-title{font-family:'Playfair Display',serif;font-size:22px;font-weight:600}
+.results-meta{font-size:13px;color:var(--muted)}
+
+/* AI ANALYSIS BOX */
+.ai-box{background:var(--navy);border-radius:12px;padding:18px 22px;margin-bottom:24px;border-left:4px solid var(--gold);position:relative}
+.ai-box-label{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:8px}
+.ai-box-text{font-size:13.5px;color:rgba(255,255,255,0.8);line-height:1.7}
+.ai-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.ai-tag{background:rgba(201,153,58,0.18);color:var(--gold-light);font-size:11px;padding:4px 11px;border-radius:20px;border:1px solid rgba(201,153,58,0.28)}
+
+/* CASE CARD */
+.case-card{background:var(--white);border-radius:14px;border:1px solid var(--border);padding:22px 24px;margin-bottom:18px;transition:box-shadow 0.2s,border-color 0.2s;cursor:default}
+.case-card:hover{box-shadow:0 6px 28px rgba(13,27,42,0.1);border-color:rgba(201,153,58,0.5)}
+.card-top-row{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:14px}
+.card-title{font-family:'Playfair Display',serif;font-size:17px;font-weight:600;color:var(--text);line-height:1.3;flex:1}
+.score-badge{flex-shrink:0;background:var(--navy);border-radius:10px;padding:8px 11px;text-align:center;min-width:60px}
+.score-num{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--gold);line-height:1;display:block}
+.score-lbl{font-size:9px;color:rgba(255,255,255,0.45);letter-spacing:1px;text-transform:uppercase;margin-top:2px;display:block}
+.card-meta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--border)}
+.cm{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:5px}
+.cm svg{width:13px;height:13px;opacity:0.5}
+.citation-badge{font-size:12px;font-weight:500;color:var(--gold);font-family:'DM Mono','Courier New',monospace;background:rgba(201,153,58,0.1);padding:2px 8px;border-radius:4px}
+
+.sec-label{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);font-weight:500;margin-bottom:6px}
+.holding-block{font-size:13.5px;line-height:1.7;color:var(--text);background:var(--cream);border-left:3px solid var(--gold);padding:12px 16px;border-radius:0 8px 8px 0;margin-bottom:14px}
+.summary-text{font-size:13px;line-height:1.7;color:var(--muted)}
+.card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px;padding-top:12px;border-top:1px solid var(--border)}
+.ct{font-size:11px;padding:4px 10px;border-radius:20px;border:1px solid var(--border);color:var(--muted);background:var(--cream)}
+
+/* ERROR */
+.error-card{background:#fff5f5;border:1.5px solid #fcc;border-radius:12px;padding:18px 22px;color:#b71c1c;font-size:13px;line-height:1.6}
+.error-card strong{display:block;margin-bottom:4px;font-size:14px}
+
+/* AD PLACEHOLDER */
+.ad-slot{background:var(--cream2);border:1.5px dashed var(--border);border-radius:10px;padding:18px;text-align:center;margin:28px 0;font-size:12px;color:var(--muted)}
+
+/* FOOTER */
+.footer{background:var(--navy);border-top:1px solid rgba(255,255,255,0.07);padding:20px 28px;text-align:center;font-size:12px;color:rgba(255,255,255,0.3);line-height:1.8}
+.footer a{color:rgba(255,255,255,0.4);text-decoration:none}
+
+@media(max-width:640px){
+  .hero h1{font-size:30px}
+  .trust-bar{grid-template-columns:repeat(2,1fr)}
+  .tb-item:nth-child(2){border-right:none}
+  .filter-row{flex-direction:column}
+  .filter-select{width:100%}
+  .search-btn{width:100%;justify-content:center}
+  .header-pills{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <a class="logo" href="/">
+    <div class="logo-icon">N</div>
+    <div>
+      <span class="logo-name">Nyaya.ai</span>
+      <span class="logo-sub">Free Indian Legal Research</span>
+    </div>
+  </a>
+  <div class="header-pills">
+    <span class="hpill free">Free Forever</span>
+    <span class="hpill cases" id="caseCount">Loading...</span>
+  </div>
+</header>
+
+<!-- HERO + SEARCH -->
+<section class="hero">
+  <div class="hero-eyebrow">AI-Powered · Semantic Search · No Paywall</div>
+  <h1>Find <em>Similar Indian Cases</em><br>in Seconds</h1>
+  <p class="hero-sub">Describe your case in plain language. Our AI reads the entire text and finds semantically similar judgments across Supreme Court, High Courts and Tribunals — no keywords needed.</p>
+
+  <div class="search-wrap">
+    <div class="search-card">
+      <span class="search-label">Describe your legal matter</span>
+      <textarea id="caseInput" placeholder="Write a few sentences about the case — e.g. My client was dismissed from government service without a proper hearing or show cause notice. The order was passed without any inquiry..."></textarea>
+      <div class="filter-row">
+        <select class="filter-select" id="courtFilter">
+          <option value="all">All Courts</option>
+          <option value="supreme">Supreme Court of India</option>
+          <option value="highcourt">High Courts</option>
+          <option value="tribunal">Tribunals &amp; Forums</option>
+        </select>
+        <select class="filter-select" id="yearFilter">
+          <option value="all">All Years</option>
+          <option value="recent">Last 5 Years (2020–2025)</option>
+          <option value="decade">Last Decade (2015–2025)</option>
+          <option value="landmark">Landmark (Pre-2010)</option>
+        </select>
+        <button class="search-btn" id="searchBtn" onclick="doSearch()">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          Find Similar Cases
+        </button>
+      </div>
+    </div>
+    <p class="search-hint">Press Ctrl+Enter to search · Results are AI-powered and for research purposes only</p>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="tb-item"><div class="tb-val">60+</div><div class="tb-lbl">Seeded Cases</div></div>
+  <div class="tb-item"><div class="tb-val">AI</div><div class="tb-lbl">Semantic Search</div></div>
+  <div class="tb-item"><div class="tb-val">SC + HC</div><div class="tb-lbl">Court Coverage</div></div>
+  <div class="tb-item"><div class="tb-val">₹0</div><div class="tb-lbl">Always Free</div></div>
+</div>
+
+<!-- RESULTS -->
+<div class="results-wrap" id="resultsWrap">
+  <!-- EMPTY STATE -->
+  <div class="empty-state" id="emptyState">
+    <div class="empty-scale">⚖️</div>
+    <div class="empty-title">Start by describing your case above</div>
+    <div class="empty-desc">Write a few sentences about the legal situation — the AI identifies relevant areas of law and finds the most semantically similar judgments. No legal jargon required.</div>
+    <div class="examples-label">Try an example</div>
+    <div class="example-pills">
+      <button class="epill" onclick="loadExample(0)">Service law / Wrongful dismissal</button>
+      <button class="epill" onclick="loadExample(1)">Natural justice violation</button>
+      <button class="epill" onclick="loadExample(2)">Property partition dispute</button>
+      <button class="epill" onclick="loadExample(3)">Bail application – Section 302</button>
+      <button class="epill" onclick="loadExample(4)">Sexual harassment at workplace</button>
+      <button class="epill" onclick="loadExample(5)">Consumer complaint – builder delay</button>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <strong style="color:rgba(255,255,255,0.55);font-family:'Playfair Display',serif">Nyaya.ai</strong> — Free Indian Legal Research Platform<br>
+  Not a substitute for professional legal advice. Always consult a qualified advocate.<br>
+  <a href="#">About</a> · <a href="#">Data Sources</a> · <a href="#">Feedback</a>
+</footer>
+
+<script>
+const API = window.location.hostname === 'localhost' ? 'http://localhost:8000' : '/api';
+
+const EXAMPLES = [
+  "My client was dismissed from government service without being given a proper hearing or show cause notice. The dismissal order was passed without following natural justice principles and no inquiry was conducted before the termination of service.",
+  "A government employee was denied promotion without giving any opportunity to rebut adverse entries in his service record. The authority passed the order without informing him of the allegations against him or affording him a chance to explain.",
+  "A dispute regarding partition of ancestral property among three brothers. The property was purchased by the grandfather and upon his death the sons are claiming shares. One brother has a registered will in his favour but the other two are challenging its validity.",
+  "My client has been arrested in a murder case under Section 302 IPC. He is in custody for 6 months and the chargesheet has not been filed. He has no criminal antecedents, has deep roots in the community and is the sole breadwinner. Seeking bail from the High Court.",
+  "A female employee was subjected to repeated unwanted physical contact by her supervisor at the workplace. When she complained internally, the complaint was dismissed without investigation and she was transferred as a punitive measure.",
+  "A consumer purchased a residential flat and the builder failed to deliver possession within the stipulated time, causing a delay of 3 years beyond the agreed date. The consumer is seeking compensation for the delay, interest on the invested amount, and damages for mental harassment."
+];
+
+function loadExample(i) {
+  document.getElementById('caseInput').value = EXAMPLES[i];
+  document.getElementById('caseInput').focus();
+}
+
+// Load case count on startup
+async function loadStats() {
+  try {
+    const r = await fetch(`${API}/stats`);
+    const d = await r.json();
+    document.getElementById('caseCount').textContent = `${d.total_cases.toLocaleString()} cases indexed`;
+  } catch {
+    document.getElementById('caseCount').textContent = 'Server offline';
+  }
+}
+loadStats();
+
+let busy = false;
+
+async function doSearch() {
+  if (busy) return;
+  const query = document.getElementById('caseInput').value.trim();
+  if (!query || query.length < 15) {
+    showError('Please describe your case in a few sentences for better results.');
+    return;
+  }
+
+  busy = true;
+  document.getElementById('searchBtn').disabled = true;
+  showLoading();
+
+  const court = document.getElementById('courtFilter').value;
+  const year  = document.getElementById('yearFilter').value;
+
+  try {
+    const resp = await fetch(`${API}/search`, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({ query, court_filter: court, year_filter: year, top_k: 5 })
+    });
+
+    if (!resp.ok) {
+      const err = await resp.json();
+      throw new Error(err.detail || 'Search failed');
+    }
+
+    const data = await resp.json();
+    renderResults(data);
+  } catch (e) {
+    showError(`Search error: ${e.message}<br><br>Make sure the backend server is running: <code>uvicorn main:app --reload</code> in the backend folder.`);
+  } finally {
+    busy = false;
+    document.getElementById('searchBtn').disabled = false;
+  }
+}
+
+function showLoading() {
+  const steps = ['Analysing legal issues in your description...','Embedding your query into vector space...','Searching indexed case vectors...','Ranking results by semantic similarity...','Generating AI analysis...'];
+  let si = 0;
+  document.getElementById('resultsWrap').innerHTML = `
+    <div class="loading-state">
+      <div class="spinner"></div>
+      <div class="loading-msg">Finding similar cases</div>
+      <div class="loading-steps-list" id="lsteps"><div class="lstep visible">${steps[0]}</div></div>
+    </div>`;
+
+  const iv = setInterval(() => {
+    si++;
+    if (si < steps.length) {
+      const el = document.getElementById('lsteps');
+      if (el) {
+        const d = document.createElement('div');
+        d.className = 'lstep visible';
+        d.textContent = steps[si];
+        el.appendChild(d);
+      }
+    } else clearInterval(iv);
+  }, 700);
+}
+
+function showError(msg) {
+  document.getElementById('resultsWrap').innerHTML = `<div class="error-card"><strong>Something went wrong</strong>${msg}</div>`;
+}
+
+function renderResults(data) {
+  const cases = data.cases || [];
+  let html = '';
+
+  html += `<div class="results-header">
+    <div class="results-title">Similar Cases Found</div>
+    <div class="results-meta">${cases.length} judgments · Ranked by semantic relevance</div>
+  </div>`;
+
+  if (data.ai_analysis) {
+    html += `<div class="ai-box">
+      <div class="ai-box-label">⚡ AI Legal Analysis</div>
+      <div class="ai-box-text">${data.ai_analysis}</div>
+      <div class="ai-tags">
+        ${(data.legal_areas || []).map(a => `<span class="ai-tag">${a}</span>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  // Ad slot placeholder (replace with Google AdSense later)
+  html += `<div class="ad-slot">[ Advertisement — Google AdSense will appear here ]</div>`;
+
+  if (cases.length === 0) {
+    html += `<div class="empty-state"><div class="empty-title">No cases matched</div><div class="empty-desc">Try broadening your description or removing court/year filters.</div></div>`;
+  }
+
+  cases.forEach(c => {
+    html += `<div class="case-card">
+      <div class="card-top-row">
+        <div class="card-title">${escHtml(c.title)}</div>
+        <div class="score-badge">
+          <span class="score-num">${c.score}%</span>
+          <span class="score-lbl">match</span>
+        </div>
+      </div>
+      <div class="card-meta">
+        <span class="cm">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg>
+          ${escHtml(c.court)}
+        </span>
+        <span class="cm">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          ${c.year}
+        </span>
+        <span class="citation-badge">${escHtml(c.citation)}</span>
+        ${c.bench ? `<span class="cm">${escHtml(c.bench)}</span>` : ''}
+      </div>
+      <div class="sec-label">Key Holding / Ratio Decidendi</div>
+      <div class="holding-block">${escHtml(c.holding)}</div>
+      <div class="sec-label">Case Background</div>
+      <div class="summary-text">${escHtml(c.summary)}</div>
+      <div class="card-tags">
+        ${(c.tags || []).map(t => `<span class="ct">${escHtml(t)}</span>`).join('')}
+      </div>
+    </div>`;
+  });
+
+  document.getElementById('resultsWrap').innerHTML = html;
+}
+
+function escHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+document.addEventListener('keydown', e => {
+  if (e.ctrlKey && e.key === 'Enter') doSearch();
+});
+</script>
+</body>
+</html>

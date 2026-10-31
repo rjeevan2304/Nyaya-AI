@@ -1,0 +1,59 @@
+python3 << 'PYEOF'
+content = """version: "3.9"
+
+services:
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: nyaya_qdrant
+    volumes:
+      - qdrant_data:/qdrant/storage
+    restart: always
+    networks:
+      - nyaya_net
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:6333/readyz || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  api:
+    build: .
+    container_name: nyaya_api
+    env_file: .env
+    environment:
+      - QDRANT_URL=http://qdrant:6333
+    depends_on:
+      qdrant:
+        condition: service_healthy
+    restart: always
+    networks:
+      - nyaya_net
+
+  nginx:
+    image: nginx:alpine
+    container_name: nyaya_nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./frontend:/var/www/frontend:ro
+    depends_on:
+      - api
+    restart: always
+    networks:
+      - nyaya_net
+
+networks:
+  nyaya_net:
+    name: nyaya_network
+
+volumes:
+  qdrant_data:
+    name: nyaya_qdrant_data
+"""
+with open("/opt/nyaya-ai/docker-compose.prod.yml", "w") as f:
+    f.write(content)
+print("File written successfully")
+PYEOF
